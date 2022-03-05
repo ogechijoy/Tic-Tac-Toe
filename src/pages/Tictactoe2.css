@@ -1,0 +1,76 @@
+* {
+  background-color: rgb(2, 14, 14);
+}
+.header {
+  width: 80%;
+  background-color: black;
+  color: khaki;
+  text-align: center;
+  /* height: 1.5em; */
+  font-size: 2.7em;
+}
+.container {
+  margin: auto;
+  width: 100%;
+}
+.container2 {
+  width: 100%;
+}
+.btnRow {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  margin-bottom: -2px;
+  border: none;
+  background-color: rgb(245, 65, 10);
+}
+.btn1 {
+  background-color: darkkhaki;
+  width: 2.3em;
+  height: 2.3em;
+  margin: 1px;
+  border: none;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.inputContainer {
+  margin: auto;
+  width: 28%;
+}
+input {
+  width: 28%;
+  height: 2.3em;
+  border: 1px solid white;
+  border-radius: 0.4em;
+  margin: 40% 1% 1% 40%;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+.btn2Container {
+  margin: auto;
+  /* background-color: red; */
+  /* padding: 1px; */
+  width: 25.7%;
+}
+.btn2 {
+  color: rgb(32, 31, 31);
+  background-color: rgba(255, 255, 255, 0.849);
+  width: 25%;
+  margin: auto;
+  height: 2.5em;
+  border: none;
+  border-radius: 0.4em;
+}
+@media screen and (max-width: 500px) {
+  .inputContainer {
+    width: 70%;
+  }
+  .btnContainer {
+    margin-left: 5em;
+  }
+  .btn2Container {
+    width: 80%;
+    margin-left: 5.2em;
+  }
+}
